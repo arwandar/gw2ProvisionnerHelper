@@ -1,24 +1,12 @@
 {% extends 'base.html' %}
 
-<h2>
-  {% block title %}
-    Tokens
-  {% endblock %}
-</h2>
+<h2>{% block title %} Tokens {% endblock %}</h2>
 
 {% block content %}
-  <ul>
-    {% for line in lines %}
-      <li>{{ line.provisionner }}
-        ({{ line.tp }}):
-        {{ line.token }}
-      </li>
-    {% endfor %}
-  </ul>
-  <ul>
-    {% for token in tokens %}
-      <li>{{ token }}
-      </li>
-    {% endfor %}
-  </ul>
+<ul>
+  {% for line in lines %}
+  <li>{{ line.provisionner }}: {{ line.token }}</li>
+  {% endfor %}
+</ul>
+
 {% endblock %}
