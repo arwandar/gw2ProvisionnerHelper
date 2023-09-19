@@ -1,15 +1,12 @@
-from django.db.models import prefetch_related_objects
 from django.shortcuts import render
 
-
 from api.models import Category
-from api.utils.getBestToken import getBestToken
 
 
 class Line:
     def __init__(self, category):
         self.provisionner = category.provisionner
-        self.token = getBestToken(category)
+        self.token = category.getBestToken()
 
 
 def props(cls):
