@@ -1,0 +1,45 @@
+[
+  {
+    "model": "api.item",
+    "pk": 1,
+    "fields": { "name": "Ectoplasme", "apiId": "19721" }
+  },
+  {
+    "model": "api.item",
+    "pk": 2,
+    "fields": { "name": "Rune d'aventurier supérieure", "apiId": "24830" }
+  },
+  {
+    "model": "api.item",
+    "pk": 3,
+    "fields": { "name": "Machette krait assassine", "apiId": "46281" }
+  },
+  {
+    "model": "api.item",
+    "pk": 4,
+    "fields": { "name": "Etoile krait assassine", "apiId": "46040" }
+  },
+  {
+    "model": "api.item",
+    "pk": 5,
+    "fields": { "name": "Arme de tir krait assassine", "apiId": "46186" }
+  },
+  {
+    "model": "api.item",
+    "pk": 6,
+    "fields": { "name": "Jambières de mascarade assassines", "apiId": "45731" }
+  },
+  {
+    "model": "api.item",
+    "pk": 7,
+    "fields": { "name": "Pantalon noble assassin", "apiId": "45765" }
+  },
+  {
+    "model": "api.item",
+    "pk": 8,
+    "fields": {
+      "name": "Plaques de jambes de gladiateur assassines",
+      "apiId": "45622"
+    }
+  }
+]

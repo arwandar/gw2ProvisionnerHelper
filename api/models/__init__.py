@@ -6,5 +6,3 @@ from .Provisionner import Provisionner
 from .Token import Token
 
 from .monkeys import *
-
-print("miaw models")

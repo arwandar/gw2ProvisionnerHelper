@@ -15,10 +15,11 @@ class Token(models.Model):
     def __str__(self):
         return self.name
 
-    def toString(self, category):
-        print(category)
-        print(vars(self))
-        return "plop"
-        # return ("{qt} {token}").format(
-        #     qt=self.categorytoken__set.get(category=category), token=self.token.name
-        # )
+    def getValue(self):
+        sum = 0
+        for item in self.items.all():
+            qt = self.getQt(item)
+            price = item.getPrice()
+            sum += qt * price
+
+        return sum

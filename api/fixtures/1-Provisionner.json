@@ -1,0 +1,20 @@
+[
+  {
+    "model": "api.provisionner",
+    "pk": 1,
+    "fields": {
+      "name": "Skritt Trader",
+      "location": "Lion's Arch",
+      "locationCode": "[&BAwEAAA=]"
+    }
+  },
+  {
+    "model": "api.provisionner",
+    "pk": 2,
+    "fields": {
+      "name": "Quartermaster Natomi",
+      "location": "Verdant Brink",
+      "locationCode": "[&BN4HAAA=]"
+    }
+  }
+]

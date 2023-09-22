@@ -1,0 +1,43 @@
+[
+  {
+    "model": "api.token",
+    "pk": 1,
+    "fields": { "name": "Rune d'aventurier supérieure" }
+  },
+  { "model": "api.token", "pk": 2, "fields": { "name": "Ectoplasme" } },
+  {
+    "model": "api.token",
+    "pk": 3,
+    "fields": { "name": "Pierre de la forge mystique" }
+  },
+  {
+    "model": "api.token",
+    "pk": 9,
+    "fields": { "name": "Machette krait assassine" }
+  },
+  {
+    "model": "api.token",
+    "pk": 4,
+    "fields": { "name": "Etoile krait assassine" }
+  },
+  {
+    "model": "api.token",
+    "pk": 5,
+    "fields": { "name": "Arme de tir krait assassine" }
+  },
+  {
+    "model": "api.token",
+    "pk": 6,
+    "fields": { "name": "Jambières de mascarade assassines" }
+  },
+  {
+    "model": "api.token",
+    "pk": 7,
+    "fields": { "name": "Pantalon noble assassin" }
+  },
+  {
+    "model": "api.token",
+    "pk": 8,
+    "fields": { "name": "Plaques de jambes de gladiateur assassines" }
+  }
+]

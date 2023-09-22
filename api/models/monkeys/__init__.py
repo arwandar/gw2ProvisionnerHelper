@@ -1,3 +1,2 @@
 from .Category import *
-
-print("miaw")
+from .Token import *

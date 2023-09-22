@@ -1,0 +1,22 @@
+[
+  {
+    "model": "api.category",
+    "pk": 1,
+    "fields": { "maxPerDay": 1, "provisionner": 1 }
+  },
+  {
+    "model": "api.category",
+    "pk": 2,
+    "fields": { "maxPerDay": 1, "provisionner": 1 }
+  },
+  {
+    "model": "api.category",
+    "pk": 3,
+    "fields": { "maxPerDay": 1, "provisionner": 1 }
+  },
+  {
+    "model": "api.category",
+    "pk": 4,
+    "fields": { "maxPerDay": 1, "provisionner": 2 }
+  }
+]

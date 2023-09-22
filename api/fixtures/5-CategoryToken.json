@@ -1,0 +1,47 @@
+[
+  {
+    "model": "api.categorytoken",
+    "pk": 1,
+    "fields": { "token": 1, "category": 1, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 2,
+    "fields": { "token": 2, "category": 2, "qt": 5 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 3,
+    "fields": { "token": 3, "category": 3, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 4,
+    "fields": { "token": 9, "category": 4, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 5,
+    "fields": { "token": 4, "category": 4, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 6,
+    "fields": { "token": 5, "category": 4, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 7,
+    "fields": { "token": 6, "category": 4, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 8,
+    "fields": { "token": 7, "category": 4, "qt": 1 }
+  },
+  {
+    "model": "api.categorytoken",
+    "pk": 9,
+    "fields": { "token": 8, "category": 4, "qt": 1 }
+  }
+]
